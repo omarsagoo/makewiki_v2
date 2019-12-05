@@ -28,4 +28,6 @@ urlpatterns = [
 
     # Wiki App
     path('', include('wiki.urls')),
+
+    path('signup/', include('wiki.urls'))
 ]
