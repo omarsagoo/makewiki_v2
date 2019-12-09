@@ -1,6 +1,6 @@
 from django.urls import path
 
-from api.views import PageList, PageView
+from .views import PageList, PageView
 
 urlpatterns = [
     path('pages/', PageList.as_view(), name='page_list'),
